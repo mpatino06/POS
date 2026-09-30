@@ -47,3 +47,9 @@ app.UseAuthorization();
 app.MapCategoryEndpoints();
 
 app.Run();
+
+
+// Make the Program class public for integration testing
+public partial class Program { } 
+
+
